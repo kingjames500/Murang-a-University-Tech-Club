@@ -1,15 +1,11 @@
 
 import './Header.css';
-function HeaderNavbar(){
+function HeaderNav(){
     return (
         <div className="navbar">
             <h2 className="logo">MUTC</h2>
             <nav>
                 <ol className="navigation-list">
-                    <li className="navigation-list-items">
-                        <a className="links" href="#">events
-                        </a>
-                    </li>
                     <li className="navigation-list-items">
                         <a className="links" href="#">Home
                         </a>
@@ -19,7 +15,7 @@ function HeaderNavbar(){
                         </a>
                     </li>
                     <li className="navigation-list-items">
-                        <a className="links" href="#">track pages
+                        <a className="links" href="#">tracks
                         </a>
                     </li>
                     <li className="navigation-list-items">
@@ -36,7 +32,7 @@ function HeaderNavbar(){
 function Header() {
     return (
         <header>
-            <HeaderNavbar/>
+            <HeaderNav/>
         </header>
     )
     
