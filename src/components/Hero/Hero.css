@@ -1,0 +1,38 @@
+.hero{
+  display: flex; 
+  align-items: center;
+  height: 89vh;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../../assets/hero-image.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media screen and (max-width: 50em){
+
+}
+
+.hero-slogan{
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 4.3rem;
+  color: var(--secondary-color);
+}
+
+.hero-mission{
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 50%;
+  margin: 0 auto;
+  text-align-last: center;
+}
+
+.hero-container p{ 
+  margin-top: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+  font-size: 1.9rem;
+}
