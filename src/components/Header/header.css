@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    /* border: 2px solid green; */
+}
+.logo{
+    width: 100px;
+    /* height: 100px; */
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    gap: 3rem; 
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin-top: 1rem;
+}
+
+.navigation-list-items{
+    text-transform: capitalize;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.links{
+    text-decoration: none;
+    font-size: 2rem; 
+    color: var(--primary-color);
+}
+
+.links:hover{
+    color: var(--tertiary-color);
+}
