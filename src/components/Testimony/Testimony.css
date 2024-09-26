@@ -3,14 +3,24 @@
   margin-top: 4rem;
 }
 .testimonail-container {
-  width: 70%;
+  width: 50%;
   margin: 3rem auto;
+}
+
+@media screen and (max-width: 37.5em) {
+  .testimonail-container {
+    width: 90%;
+  }
+
+  .Alumni-card {
+    width: 100%;
+  }
 }
 
 /* styling the alumni card testimonials */
 .Alumni-card {
   /* border: 2px solid blue; */
-  width: 50rem;
+  width: 40rem;
   margin: 2rem auto;
   padding: 1rem;
   box-shadow: 0 0 0 2px var(--tertiary-color);
