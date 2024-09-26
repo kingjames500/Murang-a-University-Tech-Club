@@ -1,29 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-:root{
+:root {
   --primary-color: #fefffe;
   --secondary-color: #f7bb28;
   --tertiary-color: #6fbbb0;
-  --hover-color:#871974;
+  --hover-color: #871974;
   --color-black: #000408;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-
 /* my webpage colors */
 
-
-body{
+body {
   font-size: 1.6rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }

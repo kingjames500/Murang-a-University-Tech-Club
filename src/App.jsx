@@ -1,15 +1,17 @@
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer' ;
-import Hero from './components/Hero/Hero';
-import './App.css'
+import Header from "./components/Header/Header";
+// import Footer from './components/Footer/Footer' ;
+import Hero from "./components/Hero/Hero";
+import Testimony from "./components/Testimony/Testimony";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Testimony />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,45 @@
+/* styling for the testimony componenet */
+.testimonail-container {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+/* styling the alumni card testimonials */
+.Alumni-card {
+  /* border: 2px solid blue; */
+  width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 0 2px var(--tertiary-color);
+}
+
+.alumni-card-details {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 1rem;
+}
+
+.alumni-card-details img {
+  --size: 9rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+}
+
+.alumni-card-details-name {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.alumni-title {
+  text-transform: capitalize;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.alumni-testimony {
+  line-height: 1.6;
+  font-weight: 400;
+}
