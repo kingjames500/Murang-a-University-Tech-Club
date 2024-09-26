@@ -1,0 +1,39 @@
+.about-us-section {
+  margin: 4rem 1rem;
+}
+
+.about-us-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 76.25em) {
+  .about-us-container {
+    flex-wrap: wrap;
+  }
+}
+
+.about-us-content {
+  width: 40rem;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 2rem 0 rgba(0, 0, 0, 0.19);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-us-content-title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.about-us-content-text {
+  line-height: 2;
+  color: var(--tertiary-color);
+  font-weight: 700;
+}

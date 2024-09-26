@@ -2,7 +2,6 @@ import "./Testimony.css";
 import Title from "../Tittle/Title";
 import alumniTestimonies from "../../data/alumniTestimonials";
 import Carousel from "react-elastic-carousel";
-import React from "react";
 
 function AlumniCard({ alumniName, alumniTestimony, alumniImage, alumniTitle }) {
   return (
@@ -25,7 +24,7 @@ function Testimony() {
         subTitle="Stories of Growth and Achievement"
       />
       <div className="testimonail-container">
-        <Carousel>
+        <Carousel itemsToShow={1} pagination={false} enableAutoPlay={true}>
           {alumniTestimonies.map((alumni, index) => (
             <AlumniCard
               key={index}
