@@ -1,4 +1,7 @@
 /* styling for the testimony componenet */
+.testimonials {
+  margin-top: 4rem;
+}
 .testimonail-container {
   width: 70%;
   margin: 3rem auto;
