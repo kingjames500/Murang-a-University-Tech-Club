@@ -1,25 +1,30 @@
 .footer-section {
-  background-color: var(--secondary-color);
+  background-color: var(--color-tertiary);
   color: var(--primary-color);
-  padding: 2rem 0;
+  padding: 2rem 4rem;
 }
 
 .footer-text {
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 1.8rem;
   text-align: center;
   padding: 2rem 0;
-  background-color: var(--secondary-color);
+  background-color: var(--color-header);
 }
 
 .footer-text h6 {
   margin-top: 1rem;
-  /* padding: 1rem; */
-  /* font-size: 2rem; */
+  font-size: 1.8rem;
 }
 a {
   text-decoration: none;
   font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: var(--color-tertiary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+  font-weight: 700;
 }

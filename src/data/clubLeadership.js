@@ -14,7 +14,7 @@ const clubLeadership = [
   {
     leaderImage: leader1,
     leaderName: "Dr. John Ndia",
-    leaderTitle: "Patron of the Club",
+    leaderPosition: "Patron of the Club",
     leaderBiography:
       "Dr. John Ndia is a highly respected academic and technology leader with over two decades of experience in research, mentorship, and guiding young professionals in the tech industry.",
     leaderSocialMedia: {
@@ -26,7 +26,7 @@ const clubLeadership = [
   {
     leaderImage: leader2,
     leaderName: "Victory Njeri",
-    leaderTitle: "Chairperson",
+    leaderPosition: "Chairperson",
     leaderBiography:
       "Victory Njeri is an experienced leader who has been instrumental in growing MUTC. With a passion for technology and innovation, she ensures the club stays on the cutting edge of industry trends.",
     leaderSocialMedia: {
@@ -39,7 +39,7 @@ const clubLeadership = [
   {
     leaderImage: leader3,
     leaderName: "Allan Muhari",
-    leaderTitle: "Vice Chairperson",
+    leaderPosition: "Vice Chairperson",
     leaderBiography:
       "Allan Muhari is a tech enthusiast with a focus on leadership and innovation. He is dedicated to supporting the growth and development of MUTC members, helping them reach their full potential.",
     leaderSocialMedia: {
@@ -50,7 +50,7 @@ const clubLeadership = [
   {
     leaderImage: leader4,
     leaderName: "Bridget Gitonga",
-    leaderTitle: "Secretary",
+    leaderPosition: "Secretary",
     leaderBiography:
       "Bridget Gitonga is responsible for the smooth operations of MUTC. With her attention to detail and organizational skills, she ensures all communications and records are effectively managed.",
     leaderSocialMedia: {
@@ -61,7 +61,7 @@ const clubLeadership = [
   {
     leaderImage: leader5,
     leaderName: "Ruth Mutisya",
-    leaderTitle: "Treasurer",
+    leaderPosition: "Treasurer",
     leaderBiography:
       "Ruth Mutisya manages the financial aspects of the club, ensuring transparency and accountability. Her expertise in finance helps MUTC remain sustainable and thrive in its mission.",
     leaderSocialMedia: {
@@ -72,7 +72,7 @@ const clubLeadership = [
   {
     leaderImage: leader6,
     leaderName: "Webster Ifedha",
-    leaderTitle: "Cyber Security Lead",
+    leaderPosition: "Cyber Security Lead",
     leaderBiography:
       "Webster Ifedha is a cyber security expert, leading MUTC’s initiatives in keeping digital spaces safe and secure. His extensive knowledge helps members understand the importance of security in tech.",
     leaderSocialMedia: {
@@ -85,7 +85,7 @@ const clubLeadership = [
   {
     leaderImage: leader7,
     leaderName: "Manase Gunga",
-    leaderTitle: "UI/UX Lead",
+    leaderPosition: "UI/UX Lead",
     leaderBiography:
       "Manase Gunga is a talented designer who leads MUTC’s UI/UX efforts. His focus on user-centered design ensures members learn how to create intuitive and engaging user experiences.",
     leaderSocialMedia: {
@@ -98,7 +98,7 @@ const clubLeadership = [
   {
     leaderImage: leader8,
     leaderName: "Carolyne Githenduka",
-    leaderTitle: "Web Development Lead",
+    leaderPosition: "Web Development Lead",
     leaderBiography:
       "Carolyne Githenduka is passionate about web development and leads MUTC’s web initiatives. Her guidance helps members build responsive, scalable websites using the latest technologies.",
     leaderSocialMedia: {
@@ -111,7 +111,7 @@ const clubLeadership = [
   {
     leaderImage: leader9,
     leaderName: "Stanley Amunze",
-    leaderTitle: "Mobile Apps Development Lead",
+    leaderPosition: "Mobile Apps Development Lead",
     leaderBiography:
       "Stanley Amunze is an expert in mobile app development, guiding MUTC members in creating cutting-edge mobile applications. His expertise spans across various platforms and technologies.",
     leaderSocialMedia: {
@@ -124,7 +124,7 @@ const clubLeadership = [
   {
     leaderImage: leader10,
     leaderName: "Paul Karanja",
-    leaderTitle: "Cloud Engineering Lead",
+    leaderPosition: "Cloud Engineering Lead",
     leaderBiography:
       "Paul Karanja is a cloud engineering specialist, helping MUTC members understand and leverage cloud computing technologies. His knowledge empowers the club to innovate in this rapidly growing field.",
     leaderSocialMedia: {
@@ -137,7 +137,7 @@ const clubLeadership = [
   {
     leaderImage: leader11,
     leaderName: "Evyonn Mbithe",
-    leaderTitle: "Power Platform Lead",
+    leaderPosition: "Power Platform Lead",
     leaderBiography:
       "Evyonn Mbithe specializes in Microsoft's Power Platform, guiding members through building low-code/no-code solutions that empower businesses and enhance productivity.",
     leaderSocialMedia: {

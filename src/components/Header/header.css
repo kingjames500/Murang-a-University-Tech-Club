@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 4rem;
-  background-color: var(--secondary-color);
+  background-color: var(--color-header);
   /* border: 2px solid green; */
 }
 .logo {
   width: 100px;
   /* height: 100px; */
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-size: 4rem;
   letter-spacing: 5px;
 }
@@ -46,9 +46,10 @@
 }
 
 .links:hover {
-  color: var(--primary-color);
-  background-color: var(--hover-color);
-  border: 6px solid var(--hover-color);
+  color: var(--color-primary);
+  font-weight: 700;
+  /* background-color: var( --color-primary); */
+  /* border: 6px solid var( --color-tertiary); */
 }
 
 @media screen and (max-width: 34.125em) {

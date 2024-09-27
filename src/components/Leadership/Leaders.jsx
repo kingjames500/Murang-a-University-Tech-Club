@@ -3,9 +3,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import Title from "../Tittle/Title";
 
-import leader1 from "../../assets/leadership images/leadership1.jpg";
-// import { Link } from 'react-router-dom';
+import clubLeadership from "../../data/clubLeadership";
 
 function LeadersSocials({ linkedIn, twitter, facebook, instagram }) {
   return (
@@ -65,12 +65,14 @@ function LeadersCards({
 }) {
   return (
     <div className="leader-cards">
-      <h4 className="leader-position">{leaderPosition}</h4>
+      <h4 className="leader-name">{leaderName}</h4>
       <div className="leader-details">
         <img src={leaderImage} alt={leaderName} />
-        <h3 className="leader-name">{leaderName}</h3>
+        <h3 className="leader-position">{leaderPosition}</h3>
       </div>
-      <p className="leader-biography">{leaderBiography}</p>
+      <div className="biograpy">
+        <p className="leader-biography">{leaderBiography}</p>
+      </div>
       {/* pasiing the leader-socails */}
       <LeadersSocials
         linkedIn="https://linkedin.com/in/john-ndia"
@@ -84,19 +86,19 @@ function LeadersCards({
 
 function Leaders() {
   return (
-    <div className="leaders-container">
-      <LeadersCards
-        leaderName="dr. john ndia"
-        leaderPosition="club patron"
-        leaderImage={leader1}
-        leaderBiography="Dr. John Ndia is a highly respected academic and technology leader with over two decades of experience in research, mentorship, and guiding young professionals in the tech industry."
-        leaderSocialMedia={{
-          linkedIn: "https://linkedin.com/in/john-ndia",
-          twitter: "https://twitter.com/john_ndia",
-          facebook: "https://facebook.com/john.ndia",
-          instagram: "https://instagram.com/john.ndia",
-        }}
-      />
+    <div className="section">
+      <Title mainTitle="Leadership" subTitle="Meet the Team" />
+      <div className="leaders-container">
+        {clubLeadership.map((leader, index) => (
+          <LeadersCards
+            key={index}
+            leaderName={leader.leaderName}
+            leaderPosition={leader.leaderPosition}
+            leaderImage={leader.leaderImage}
+            leaderBiography={leader.leaderBiography}
+          />
+        ))}
+      </div>
     </div>
   );
 }

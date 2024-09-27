@@ -6,13 +6,13 @@
   letter-spacing: 2px;
   font-size: 3rem;
   text-shadow: 0 0 2rem currentColor;
-  color: var(--tertiary-color);
+  color: var(--color-header);
   text-transform: uppercase;
 }
 
 .title_subtitle {
   font-size: 2rem;
-  color: var(--tertiary-color);
+  color: var(--color-header);
   margin-bottom: 0.8rem;
   letter-spacing: 2px;
   text-transform: capitalize;

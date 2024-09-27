@@ -23,7 +23,10 @@
   width: 40rem;
   margin: 2rem auto;
   padding: 1rem;
-  box-shadow: 0 0 0 2px var(--tertiary-color);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--color-tertiary);
 }
 
 .alumni-card-details {
@@ -41,18 +44,22 @@
 }
 
 .alumni-card-details-name {
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: capitalize;
   letter-spacing: 2px;
+  color: var(--color-primary);
+  font-weight: 700;
 }
 
 .alumni-title {
   text-transform: capitalize;
   margin: 1rem 0;
   font-size: 1.8rem;
+  color: var(--color-header);
 }
 
 .alumni-testimony {
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 900;
+  color: var(--color-primary);
 }

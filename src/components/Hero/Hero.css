@@ -18,12 +18,12 @@
   align-items: center;
   font-weight: 500;
   font-size: 4.3rem;
-  color: var(--secondary-color);
+  color: var(--color-primary);
 }
 
 .hero-mission {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color-primary);
   text-align: center;
   /* border: 2px solid red; */
   width: 50%;

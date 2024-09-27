@@ -22,6 +22,7 @@
     0 6px 2rem 0 rgba(0, 0, 0, 0.19);
   padding: 4rem 2rem;
   text-align: center;
+  background-color: var(--color-primary);
 }
 
 .about-us-content-title {
@@ -29,11 +30,11 @@
   text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 1rem;
-  color: var(--secondary-color);
+  color: var(--color-tertiary);
 }
 
 .about-us-content-text {
   line-height: 2;
-  color: var(--tertiary-color);
-  font-weight: 700;
+  color: var(--color-secondary);
+  font-weight: 990;
 }

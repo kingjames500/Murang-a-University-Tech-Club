@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --primary-color: #fefffe;
-  --secondary-color: #c29218;
-  --tertiary-color: #6fbbb0;
-  --hover-color: #871974;
-  --color-black: #000408;
+  --color-header: #9485be;
+  --color-header-nav-list-link: #cab4ab;
+  --color-primary: white;
+  --color-secondary: #b1a199;
+  --color-tertiary: #001125;
 }
 
 * {
