@@ -20,7 +20,8 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/john-ndia",
       facebook: "https://facebook.com/john.ndia",
-      x: "https://twitter.com/john_ndia",
+      twitter: "https://twitter.com/john_ndia",
+      instagram: "https://instagram.com/john_ndia",
     },
   },
   {
@@ -32,7 +33,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/victory-njeri",
       facebook: "https://facebook.com/victory.njeri",
-      x: "https://twitter.com/victory_njeri",
+      twitter: "https://twitter.com/victory_njeri",
       instagram: "https://instagram.com/victory_njeri",
     },
   },
@@ -44,7 +45,9 @@ const clubLeadership = [
       "Allan Muhari is a tech enthusiast with a focus on leadership and innovation. He is dedicated to supporting the growth and development of MUTC members, helping them reach their full potential.",
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/allan-muhari",
-      x: "https://twitter.com/allan_muhari",
+      facebook: "https://facebook.com/allan.muhari",
+      twitter: "https://twitter.com/allan_muhari",
+      instagram: "https://instagram.com/allan_muhari",
     },
   },
   {
@@ -55,7 +58,9 @@ const clubLeadership = [
       "Bridget Gitonga is responsible for the smooth operations of MUTC. With her attention to detail and organizational skills, she ensures all communications and records are effectively managed.",
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/bridget-gitonga",
-      x: "https://twitter.com/bridget_gitonga",
+      facebook: "https://facebook.com/bridget.gitonga",
+      twitter: "https://twitter.com/bridget_gitonga",
+      instagram: "https://instagram.com/bridget_gitonga",
     },
   },
   {
@@ -66,6 +71,8 @@ const clubLeadership = [
       "Ruth Mutisya manages the financial aspects of the club, ensuring transparency and accountability. Her expertise in finance helps MUTC remain sustainable and thrive in its mission.",
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/ruth-mutisya",
+      facebook: "https://facebook.com/ruth.mutisya",
+      twitter: "https://twitter.com/ruth_mutisya",
       instagram: "https://instagram.com/ruth_mutisya",
     },
   },
@@ -78,7 +85,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/webster-ifedha",
       facebook: "https://facebook.com/webster.ifedha",
-      x: "https://twitter.com/webster_ifedha",
+      twitter: "https://twitter.com/webster_ifedha",
       instagram: "https://instagram.com/webster_ifedha",
     },
   },
@@ -91,7 +98,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/manase-gunga",
       facebook: "https://facebook.com/manase.gunga",
-      x: "https://twitter.com/manase_gunga",
+      twitter: "https://twitter.com/manase_gunga",
       instagram: "https://instagram.com/manase_gunga",
     },
   },
@@ -104,7 +111,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/carolyne-githenduka",
       facebook: "https://facebook.com/carolyne.githenduka",
-      x: "https://twitter.com/carolyne_githenduka",
+      twitter: "https://twitter.com/carolyne_githenduka",
       instagram: "https://instagram.com/carolyne_githenduka",
     },
   },
@@ -117,7 +124,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/stanley-amunze",
       facebook: "https://facebook.com/stanley.amunze",
-      x: "https://twitter.com/stanley_amunze",
+      twitter: "https://twitter.com/stanley_amunze",
       instagram: "https://instagram.com/stanley_amunze",
     },
   },
@@ -130,7 +137,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/paul-karanja",
       facebook: "https://facebook.com/paul.karanja",
-      x: "https://twitter.com/paul_karanja",
+      twitter: "https://twitter.com/paul_karanja",
       instagram: "https://instagram.com/paul_karanja",
     },
   },
@@ -143,7 +150,7 @@ const clubLeadership = [
     leaderSocialMedia: {
       linkedIn: "https://linkedin.com/in/evyonn-mbithe",
       facebook: "https://facebook.com/evyonn.mbithe",
-      x: "https://twitter.com/evyonn_mbithe",
+      twitter: "https://twitter.com/evyonn_mbithe",
       instagram: "https://instagram.com/evyonn_mbithe",
     },
   },

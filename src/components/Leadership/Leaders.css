@@ -1,8 +1,14 @@
 /* styling section for the container that is displaying everything */
+.section {
+  margin-top: 3rem;
+}
+
 .leaders-container {
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 /* leaders social media stylings */
@@ -16,14 +22,14 @@
 
 .leaders-socials a {
   font-size: 2.5rem;
-  color: var(--color-primary);
+  color: var(--color-tertiary);
   text-decoration: none;
   transition: color 0.5s ease;
   font-weight: 900;
 }
 
 .leaders-socials a:hover {
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   font-weight: 700;
 }
 
@@ -69,8 +75,10 @@
 }
 
 .biograpy {
-  margin: 2px;
+  margin: 2.5px;
+  height: 14rem;
   text-align: center;
+  /* border: 3px solid green; */
 }
 
 .leader-biography {

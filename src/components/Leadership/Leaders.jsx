@@ -62,6 +62,7 @@ function LeadersCards({
   leaderPosition,
   leaderImage,
   leaderBiography,
+  leaderSocialsMediaLink,
 }) {
   return (
     <div className="leader-cards">
@@ -75,10 +76,10 @@ function LeadersCards({
       </div>
       {/* pasiing the leader-socails */}
       <LeadersSocials
-        linkedIn="https://linkedin.com/in/john-ndia"
-        twitter="https://twitter.com/john_ndia"
-        facebook="https://facebook.com/john.ndia"
-        instagram="https://instagram.com/john.ndia"
+        linkedIn={leaderSocialsMediaLink.linkedIn}
+        twitter={leaderSocialsMediaLink.twitter}
+        facebook={leaderSocialsMediaLink.facebook}
+        instagram={leaderSocialsMediaLink.instagram}
       />
     </div>
   );
@@ -87,7 +88,10 @@ function LeadersCards({
 function Leaders() {
   return (
     <div className="section">
-      <Title mainTitle="Leadership" subTitle="Meet the Team" />
+      <Title
+        mainTitle="Guiding Innovators, Leading the Future"
+        subTitle="Meet the Visionaries Empowering Tomorrow’s Tech Leaders at MUTC"
+      />
       <div className="leaders-container">
         {clubLeadership.map((leader, index) => (
           <LeadersCards
@@ -96,6 +100,7 @@ function Leaders() {
             leaderPosition={leader.leaderPosition}
             leaderImage={leader.leaderImage}
             leaderBiography={leader.leaderBiography}
+            leaderSocialsMediaLink={leader.leaderSocialMedia}
           />
         ))}
       </div>
