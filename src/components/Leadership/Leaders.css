@@ -1,0 +1,68 @@
+.leaders-socials {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid var(--secondary-color); */
+  justify-content: space-around;
+  background-color: var(--primary-color);
+}
+
+.leaders-socials a {
+  font-size: 2.7rem;
+  color: var(--color-black);
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.leaders-socials a:hover {
+  color: var(--hover-color);
+  font-weight: 700;
+}
+
+/* end of social media styling */
+
+/* styling of leaders card */
+.leader-cards {
+  width: 28rem;
+  margin: 2rem auto;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leader-position {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-align: center;
+  text-transform: capitalize;
+}
+.leader-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leader-details img {
+  --size: 12rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  /* border: 2px solid var(--tertiary-color); */
+  margin: 1rem;
+}
+.leader-name {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--tertiary-color);
+  margin-bottom: 1rem;
+}
+
+.leader-biography {
+  font-size: 1.6rem;
+  color: var(--color-black);
+  padding: 0 1rem;
+  font-weight: 600;
+  /* border: 2px solid var(--secondary-color); */
+}

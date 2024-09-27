@@ -1,3 +1,9 @@
+.footer-section {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
 .footer-text {
   color: var(--primary-color);
   font-size: 1.8rem;
@@ -15,4 +21,5 @@ a {
   text-decoration: none;
   font-size: 1.8rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }

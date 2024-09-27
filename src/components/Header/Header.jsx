@@ -1,4 +1,6 @@
 import "./Header.css";
+
+import { Link } from "react-router-dom";
 function HeaderNav() {
   return (
     <div className="navbar">
@@ -6,24 +8,24 @@ function HeaderNav() {
       <nav>
         <ol className="navigation-list">
           <li className="navigation-list-items">
-            <a className="links" href="#">
+            <Link className="links" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="navigation-list-items">
-            <a className="links" href="#">
+            <Link className="links" to="/Leadership">
               leadership
-            </a>
+            </Link>
           </li>
           <li className="navigation-list-items">
-            <a className="links" href="#">
+            <Link className="links" to="#">
               tracks
-            </a>
+            </Link>
           </li>
           <li className="navigation-list-items">
-            <a className="links" href="#">
+            <Link className="links" to="#">
               events
-            </a>
+            </Link>
           </li>
         </ol>
       </nav>
