@@ -13,12 +13,12 @@ function HeaderNav() {
             </Link>
           </li>
           <li className="navigation-list-items">
-            <Link className="links" to="/Leadership">
+            <Link className="links" to="/leadership">
               leadership
             </Link>
           </li>
           <li className="navigation-list-items">
-            <Link className="links" to="#">
+            <Link className="links" to="/tracks">
               tracks
             </Link>
           </li>

@@ -1,14 +1,14 @@
 import leader1 from "../assets/leadership images/leadership1.jpg";
-import leader2 from "../assets/leadership images/leadership1.jpg";
-import leader3 from "../assets/leadership images/leadership1.jpg";
-import leader4 from "../assets/leadership images/leadership1.jpg";
-import leader5 from "../assets/leadership images/leadership1.jpg";
-import leader6 from "../assets/leadership images/leadership1.jpg";
-import leader7 from "../assets/leadership images/leadership1.jpg";
-import leader8 from "../assets/leadership images/leadership1.jpg";
-import leader9 from "../assets/leadership images/leadership1.jpg";
-import leader10 from "../assets/leadership images/leadership1.jpg";
-import leader11 from "../assets/leadership images/leadership1.jpg";
+import leader2 from "../assets/leadership images/leadership2.jpg";
+import leader3 from "../assets/leadership images/leadership3.jpg";
+import leader4 from "../assets/leadership images/leadership4.jpg";
+import leader5 from "../assets/leadership images/leadership5.jpg";
+import leader6 from "../assets/leadership images/leadership6.jpg";
+import leader7 from "../assets/leadership images/leadership7.jpg";
+import leader8 from "../assets/leadership images/leadership8.jpg";
+import leader9 from "../assets/leadership images/leadership9.jpg";
+import leader10 from "../assets/leadership images/leadership10.jpg";
+import leader11 from "../assets/leadership images/leadership11.jpg";
 
 const clubLeadership = [
   {

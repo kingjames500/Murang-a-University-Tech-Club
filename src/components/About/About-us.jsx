@@ -48,7 +48,7 @@ function AboutInfo() {
 function AboutUs() {
   return (
     <div className="about-us-section">
-      <Title mainTitle="About Us" subTitle="Get to know us better" />
+      <Title mainTitle="About Us" subTitle="Get to know us better?" />
       <AboutInfo />
     </div>
   );
