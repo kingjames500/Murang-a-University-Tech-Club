@@ -23,7 +23,7 @@ function HeaderNav() {
             </Link>
           </li>
           <li className="navigation-list-items">
-            <Link className="links" to="#">
+            <Link className="links" to="/club-events">
               events
             </Link>
           </li>

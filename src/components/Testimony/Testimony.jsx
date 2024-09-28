@@ -24,7 +24,7 @@ function Testimony() {
         subTitle="Stories of Growth and Achievement"
       />
       <div className="testimonail-container">
-        <Carousel itemsToShow={1} pagination={false} enableAutoPlay={false}>
+        <Carousel itemsToShow={1} pagination={false} enableAutoPlay={true}>
           {alumniTestimonies.map((alumni, index) => (
             <AlumniCard
               key={index}

@@ -52,10 +52,10 @@
 }
 
 @media screen and (max-width: 34.125em) {
-  .navbar{
-    padding: 1rem
+  .navbar {
+    padding: 1rem;
   }
-  .logo{
+  .logo {
     font-size: 2rem;
     letter-spacing: 3px;
   }
@@ -88,7 +88,7 @@
     letter-spacing: 1px;
   }
   .links {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     font-weight: 800;
   }
 }

@@ -21,7 +21,7 @@ const clubLeadership = [
       linkedIn: "https://linkedin.com/in/john-ndia",
       facebook: "https://facebook.com/john.ndia",
       twitter: "https://twitter.com/john_ndia",
-      instagram: "https://instagram.com/john_ndia",
+      // instagram: "https://instagram.com/john_ndia",
     },
   },
   {

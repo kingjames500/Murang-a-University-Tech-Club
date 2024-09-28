@@ -1,12 +1,11 @@
-import Tracks from '../../components/Tracks/Tracks';
-
+import Tracks from "../../components/Tracks/Tracks";
 
 function TracksPage() {
   return (
     <div>
       <Tracks />
     </div>
-  )
+  );
 }
 
-export default TracksPage
+export default TracksPage;
