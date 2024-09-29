@@ -1,13 +1,6 @@
 import Title from "../Tittle/Title";
 import "./Tracks.css";
-
 import TracksData from "../../data/TracksData";
-
-// function TrackForm(){
-//   return(
-//     div.
-//   );
-// }
 
 function TracksCard({ trackImage, trackName, trackDescription }) {
   return (
@@ -20,7 +13,7 @@ function TracksCard({ trackImage, trackName, trackDescription }) {
         <p className="card-description">{trackDescription}</p>
       </div>
       <div className="btn">
-        <button>explore course</button>
+        <button className="card-btn">enroll track</button>
       </div>
     </div>
   );
@@ -44,9 +37,6 @@ function Tracks() {
           />
         ))}
       </div>
-      {/* <div className="form-inputs">
-        <TrackFormInput />
-      </div> */}
     </div>
   );
 }

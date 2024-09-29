@@ -57,7 +57,7 @@
   margin: 1rem;
 }
 
-button {
+.card-btn {
   display: block;
   padding: 0.8rem;
   border: none;
@@ -70,4 +70,9 @@ button {
   letter-spacing: 1px;
   border-radius: 1px;
   cursor: pointer;
+  outline: none;
+}
+
+.form-container {
+  margin: 3rem 0;
 }
