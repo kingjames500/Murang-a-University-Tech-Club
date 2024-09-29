@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-section">
         <div className="footer-text">
-          <p className="copyright">© 2021 MUTC. All rights reserved.</p>
+          <p className="copyright">© 2024 MUTC. All rights reserved.</p>
           <h6 className="my-link">
             <a href="https://github.com/kingjames500" target="blank">
               Kingjames

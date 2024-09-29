@@ -2,6 +2,9 @@ import Title from "../Tittle/Title";
 import "./Tracks.css";
 import TracksData from "../../data/TracksData";
 
+import EnrollTrackForm from "../EnrollTracks/EnrollTrackForm";
+import { Link } from "react-router-dom";
+
 function TracksCard({ trackImage, trackName, trackDescription }) {
   return (
     <div className="track-card">
@@ -26,7 +29,6 @@ function Tracks() {
         mainTitle="Explore Our Specialized Tracks"
         subTitle="We have a variety of tracks that cater to your interests"
       />
-
       <div className="card-section">
         {TracksData.map((tracks, i) => (
           <TracksCard
