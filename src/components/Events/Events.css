@@ -1,21 +1,63 @@
-.event-card {
-  border: 2px solid green;
-  margin: 1rem;
-  width: 40%;
-  /* justify-content: center; */
+.overall-section {
+  margin-top: 3rem;
+}
 
-  /* display: flex; */
+.events-section-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .event-name {
-  font-size: 3rem;
-  color: var(--color-secondary);
-  text-transform: capitalize;
-  padding: 1rem;
-  /* text-align: centre; */
-  border: 3px solid blue;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-date {
+  background-color: var(--color-header);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 100px;
+  text-align: center;
 }
 
 .event-details {
-  /* text-align: centre; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color-secondary);
+
+  .event-lead {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--color-header);
+  }
+
+  .event-day,
+  .event-location,
+  .event-time {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    color: var(--color-tertiary);
+  }
 }
