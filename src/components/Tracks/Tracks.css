@@ -1,5 +1,5 @@
 .container-tracks {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 .card-section {
   display: flex;
@@ -26,6 +26,7 @@
 
 .card-details img {
   width: 100%;
+  height: 20rem;
 }
 
 .card-title {

@@ -19,6 +19,7 @@
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* transition: all ease-in-out 0.5s; */
 }
 
 .event-name {
@@ -48,9 +49,9 @@
 
   .event-lead {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 1rem;
-    color: var(--color-header);
+    color: var(--color-secondary);
   }
 
   .event-day,
@@ -58,6 +59,12 @@
   .event-time {
     font-size: 1.6rem;
     margin: 0.5rem 0;
+    color: var(--color-tertiary);
+  }
+
+  #card-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
     color: var(--color-tertiary);
   }
 }

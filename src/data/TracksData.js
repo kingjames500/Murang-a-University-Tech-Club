@@ -1,9 +1,9 @@
 import cyberSecurityImage from "../assets/tracks images/cybersecurity.png";
-import uiuxDesignImage from "../assets/tracks images/cybersecurity.png";
-import webDevelopmentImage from "../assets/tracks images/cybersecurity.png";
-import mobileDevelopmentImage from "../assets/tracks images/cybersecurity.png";
-import cloudEngineeringImage from "../assets/tracks images/cybersecurity.png";
-import powerPlatformImage from "../assets/tracks images/cybersecurity.png";
+import uiuxDesignImage from "../assets/tracks images/uiuxdesign.jpg";
+import webDevelopmentImage from "../assets/tracks images/webdevelopment.png";
+import mobileDevelopmentImage from "../assets/tracks images/mobile.jpg";
+import cloudEngineeringImage from "../assets/tracks images/cloud.jpg";
+import powerPlatformImage from "../assets/tracks images/power.png";
 
 const TracksData = [
   {

@@ -19,17 +19,24 @@ function EventsCard({
       </div>
       <div className="event-details">
         <h4 className="event-lead">
-          <i className="fas fa-user" aria-hidden="true"></i> {eventLead}
+          <i className="fas fa-user" aria-hidden="true" id="card-icon"></i>{" "}
+          {eventLead}
         </h4>
         <h5 className="event-day">
-          <i className="fas fa-calendar" aria-hidden="true"></i> {eventDay}
+          <i className="fas fa-calendar" aria-hidden="true" id="card-icon"></i>{" "}
+          {eventDay}
         </h5>
         <p className="event-location">
-          <i className="fas fa-map-marker-alt" aria-hidden="true"></i>{" "}
+          <i
+            className="fas fa-map-marker-alt"
+            aria-hidden="true"
+            id="card-icon"
+          ></i>{" "}
           {eventLocation}
         </p>
         <span className="event-time">
-          <i className="fas fa-clock" aria-hidden="true"></i> {eventTime}
+          <i className="fas fa-clock" aria-hidden="true" id="card-icon"></i>{" "}
+          {eventTime}
         </span>
       </div>
     </div>
