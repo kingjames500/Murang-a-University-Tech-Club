@@ -2,8 +2,8 @@ import Title from "../Tittle/Title";
 import "./Tracks.css";
 import TracksData from "../../data/TracksData";
 
-import EnrollTrackForm from "../EnrollTracks/EnrollTrackForm";
-import { Link } from "react-router-dom";
+// import EnrollTrackForm from "../EnrollTracks/EnrollTrackForm";
+// import { Link } from "react-router-dom";
 
 function TracksCard({ trackImage, trackName, trackDescription }) {
   return (
