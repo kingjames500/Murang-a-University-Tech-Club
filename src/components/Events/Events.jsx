@@ -3,7 +3,6 @@ import "./Events.css";
 import Title from "../Tittle/Title";
 
 import weeklySchedule from "../../data/events";
-import { Link } from "react-router-dom";
 
 function EventsCard({
   eventName,
@@ -11,6 +10,7 @@ function EventsCard({
   eventLocation,
   eventLead,
   eventDay,
+  leadAvatar,
 }) {
   return (
     <div className="event-card">
@@ -18,10 +18,10 @@ function EventsCard({
         <h2 className="event-name">{eventName}</h2>
       </div>
       <div className="event-details">
-        <h4 className="event-lead">
-          <i className="fas fa-user" aria-hidden="true" id="card-icon"></i>{" "}
-          {eventLead}
-        </h4>
+        <div className="event-lead">
+          <img src={leadAvatar} alt={eventLead} />
+          <h4 className="event-lead-name">{eventLead}</h4>
+        </div>
         <h5 className="event-day">
           <i className="fas fa-calendar" aria-hidden="true" id="card-icon"></i>{" "}
           {eventDay}
@@ -56,6 +56,7 @@ function Events() {
             key={i}
             eventName={events.eventName}
             eventLead={events.eventLead}
+            leadAvatar={events.leadAvatar}
             eventDay={events.eventDay}
             eventLocation={events.eventLocation}
             eventTime={events.eventTime}
