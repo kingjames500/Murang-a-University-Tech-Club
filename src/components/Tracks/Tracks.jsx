@@ -3,8 +3,6 @@ import "./Tracks.css";
 import TracksData from "../../data/TracksData";
 import { Link } from "react-router-dom";
 
-
-
 function TracksCard({ trackImage, trackName, trackDescription }) {
   return (
     <div className="track-card">

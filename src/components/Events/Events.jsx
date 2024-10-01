@@ -21,7 +21,7 @@ function EventsCard({
       <div className="event-details">
         <div className="event-lead">
           <img src={leadAvatar} alt={eventLead} className="event-lead-image" />
-          <h4>{eventLead}</h4>
+          <h4 className="event-lead-name">{eventLead}</h4>
         </div>
         <h5 className="event-day">
           <i className="fas fa-calendar" aria-hidden="true" id="card-icon"></i>{" "}
@@ -55,6 +55,7 @@ function Events() {
         {weeklySchedule.map((events, i) => (
           <EventsCard
             key={i}
+            leadAvatar={events.leadAvatar}
             eventName={events.eventName}
             eventLead={events.eventLead}
             eventDay={events.eventDay}
