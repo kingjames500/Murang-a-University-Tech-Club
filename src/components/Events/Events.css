@@ -48,10 +48,15 @@
   color: var(--color-secondary);
 
   .event-lead {
-    font-size: 2rem;
+    /* font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 1rem;
-    color: var(--color-secondary);
+    color: var(--color-secondary); */
+    border: 2px solid red;
+  }
+
+  .event-lead img{
+    border: 2px solid blue;
   }
 
   .event-day,

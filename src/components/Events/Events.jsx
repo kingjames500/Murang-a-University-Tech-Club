@@ -11,6 +11,7 @@ function EventsCard({
   eventLocation,
   eventLead,
   eventDay,
+  leadAvatar,
 }) {
   return (
     <div className="event-card">
@@ -18,10 +19,10 @@ function EventsCard({
         <h2 className="event-name">{eventName}</h2>
       </div>
       <div className="event-details">
-        <h4 className="event-lead">
-          <i className="fas fa-user" aria-hidden="true" id="card-icon"></i>{" "}
-          {eventLead}
-        </h4>
+        <div className="event-lead">
+          <img src={leadAvatar} alt={eventLead} className="event-lead-image" />
+          <h4>{eventLead}</h4>
+        </div>
         <h5 className="event-day">
           <i className="fas fa-calendar" aria-hidden="true" id="card-icon"></i>{" "}
           {eventDay}
