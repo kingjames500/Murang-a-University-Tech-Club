@@ -1,9 +1,9 @@
 import Title from "../Tittle/Title";
 import "./Tracks.css";
 import TracksData from "../../data/TracksData";
+import { Link } from "react-router-dom";
 
-// import EnrollTrackForm from "../EnrollTracks/EnrollTrackForm";
-// import { Link } from "react-router-dom";
+
 
 function TracksCard({ trackImage, trackName, trackDescription }) {
   return (
@@ -16,7 +16,7 @@ function TracksCard({ trackImage, trackName, trackDescription }) {
         <p className="card-description">{trackDescription}</p>
       </div>
       <div className="btn">
-        <button className="card-btn">enroll track</button>
+        <Link className="card-btn">enroll track</Link>
       </div>
     </div>
   );

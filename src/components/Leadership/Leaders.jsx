@@ -6,52 +6,53 @@ import { FaLinkedin } from "react-icons/fa6";
 import Title from "../Tittle/Title";
 
 import clubLeadership from "../../data/clubLeadership";
+import { Link } from "react-router-dom";
 
 function LeadersSocials({ linkedIn, twitter, facebook, instagram }) {
   return (
     <div className="leaders-socials">
       {twitter && (
-        <a
+        <Link
           href={twitter}
           className="socials-links"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaSquareXTwitter />
-        </a>
+        </Link>
       )}
 
       {facebook && (
-        <a
+        <Link
           href={facebook}
           className="socials-links"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebookSquare />
-        </a>
+        </Link>
       )}
 
       {linkedIn && (
-        <a
+        <Link
           href={linkedIn}
           className="socials-links"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin />
-        </a>
+        </Link>
       )}
 
       {instagram && (
-        <a
+        <Link
           href={instagram}
           className="socials-links"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaInstagramSquare />
-        </a>
+        </Link>
       )}
     </div>
   );
