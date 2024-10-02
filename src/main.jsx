@@ -1,3 +1,4 @@
+
 // react 17.0.2
 
 import React from "react";
@@ -9,8 +10,13 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById("root"),
+  document.getElementById('root')
 );
+
+
+
+
+// react 18 which I have downgrade to 17.0.2
 
 // react v 18.1.3
 // import { StrictMode } from "react";

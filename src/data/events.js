@@ -1,9 +1,10 @@
-import webstar from "../assets/eventsleadimage/webstar.jpg";
-import stanley from "../assets/eventsleadimage/stanley.jpg";
-import paul from "../assets/eventsleadimage/paul.jpg";
-import manase from "../assets/eventsleadimage/manase.jpg";
-import carolyne from "../assets/eventsleadimage/carolyne.jpg";
-import evyonn from "../assets/eventsleadimage/evyonn.jpg";
+
+import webstar from "../assets/eventsleadimages/webstar.jpg";
+import manase from "../assets/eventsleadimages/manase.jpg";
+import stanley from "../assets/eventsleadimages/stanley.jpg";
+import carolyne from "../assets/eventsleadimages/carolyne.jpg";
+import paul from "../assets/eventsleadimages/paul.jpg";
+import evyonn from "../assets/eventsleadimages/evyonn.jpg";
 
 const weeklySchedule = [
   {
