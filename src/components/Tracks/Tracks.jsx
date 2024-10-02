@@ -14,7 +14,9 @@ function TracksCard({ trackImage, trackName, trackDescription }) {
         <p className="card-description">{trackDescription}</p>
       </div>
       <div className="btn">
-        <Link className="card-btn">enroll track</Link>
+        <Link to="/enroll" className="card-btn">
+          enroll track
+        </Link>
       </div>
     </div>
   );
