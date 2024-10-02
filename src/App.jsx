@@ -4,6 +4,7 @@ import Home from "./page/Home/Home";
 import Leadership from "./page/Leadership/Leadership";
 import TracksPage from "./page/TracksPage/TracksPage";
 import EventsPage from "./page/EventsPage/EventsPage";
+import Enroll from "./page/Enroll/Enroll";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/tracks" element={<TracksPage />} />
           <Route path="/club-events" element={<EventsPage />} />
+          <Route path="/enroll" element={<Enroll />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,10 +1,10 @@
 
 // react 17.0.2
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './App.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./App.css";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +17,8 @@ ReactDOM.render(
 
 
 // react 18 which I have downgrade to 17.0.2
+
+// react v 18.1.3
 // import { StrictMode } from "react";
 // import { createRoot } from "react-dom/client";
 // import App from "./App.jsx";
